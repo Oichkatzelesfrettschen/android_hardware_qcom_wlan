@@ -104,7 +104,6 @@ LOCAL_C_INCLUDES += external/libnl-headers
 endif
 
 LOCAL_HEADER_LIBRARIES := libcutils_headers libutils_headers libwifi-hal-ctrl_headers libcld80211_headers
-LOCAL_HEADER_LIBRARIES += generated_kernel_headers
 LOCAL_SANITIZE := cfi signed-integer-overflow unsigned-integer-overflow
 
 include $(BUILD_STATIC_LIBRARY)
@@ -182,6 +181,5 @@ LOCAL_C_INCLUDES += external/libnl-headers
 endif
 
 LOCAL_HEADER_LIBRARIES := libcutils_headers libutils_headers libwifi-hal-ctrl_headers libcld80211_headers
-LOCAL_HEADER_LIBRARIES += generated_kernel_headers
 LOCAL_SANITIZE := cfi integer_overflow
 include $(BUILD_SHARED_LIBRARY)
